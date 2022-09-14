@@ -1,0 +1,93 @@
+.box-l{
+  display: grid;
+  max-width: 100vw;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 175px;
+  gap: 24px;
+}
+
+.login{
+  width: 500px;
+  justify-self: end;
+}
+
+.login h1{
+  border-bottom: 4px solid var(--verde-1);
+  width: 120px;
+  margin-bottom: 24px;
+  color: var(--preto);
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.c-l{
+  display: grid;
+  max-width: 500px;
+}
+
+.c-l input{
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: var(--cinza-);
+  border: 2px solid var(--cinza-2);
+  border-radius: 8px;
+  font-size: 1rem;
+  color: var(--preto);
+}
+
+.c-l p{
+  color: var(--cinza-2);
+}
+
+.c-l button{
+  padding: 16px;
+  font-size: 1.5rem;
+  background-color: var(--verde-1);
+  border: none;
+  color: var(--branco);
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.c-l button:hover{
+  background-color: var(--verde-2);
+}
+
+
+.c-l .checkbox-box{
+  margin-bottom: 8px;
+  color: var(--cinza-2);
+}
+
+.c-l .checkbox-box a{
+  text-decoration: none;
+  color: var(--cinza-2);
+  transition: .3s;
+}
+
+.c-l .checkbox-box a:hover{
+  text-decoration: underline;
+  color: var(--cinza-4);
+}
+
+.c-l a{
+  margin-top: 8px;
+  color: var(--cinza-2);
+  text-decoration: none;
+  text-align: center;
+  transition: .3s;
+}
+
+.c-l a:hover{
+  color: var(--cinza-4);
+}
+
+.e-c{
+  display: flex;
+  justify-content: space-between;
+}

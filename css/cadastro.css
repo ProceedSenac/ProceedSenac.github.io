@@ -1,0 +1,89 @@
+.box-c{
+  display: grid;
+  max-width: 100vw;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 105px;
+  gap: 24px;
+}
+
+.cadastro h1{
+  border-bottom: 4px solid var(--verde-1);
+  width: 200px;
+  margin-bottom: 24px;
+  color: var(--preto);
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.img-cadastro{
+  justify-self: end;
+  max-width: 100%;
+  scale: 130%;
+}
+
+.c-f{
+  display: grid;
+  max-width: 500px;
+}
+
+.c-f input{
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: var(--cinza-);
+  border: 2px solid var(--cinza-2);
+  border-radius: 8px;
+  font-size: 1rem;
+  color: var(--preto);
+}
+
+.c-f p{
+  color: var(--cinza-2);
+}
+
+.c-f button{
+  padding: 16px;
+  font-size: 1.5rem;
+  background-color: var(--verde-1);
+  border: none;
+  color: var(--branco);
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.c-f button:hover{
+  background-color: var(--verde-2);
+}
+
+
+.c-f .checkbox-box{
+  margin-bottom: 8px;
+  color: var(--cinza-2);
+}
+
+.c-f .checkbox-box a{
+  text-decoration: none;
+  color: var(--cinza-2);
+  transition: .3s;
+}
+
+.c-f .checkbox-box a:hover{
+  text-decoration: underline;
+  color: var(--cinza-4);
+}
+
+.c-f a{
+  margin-top: 8px;
+  color: var(--cinza-2);
+  text-decoration: none;
+  text-align: center;
+  transition: .3s;
+}
+
+.c-f a:hover{
+  color: var(--cinza-4);
+}

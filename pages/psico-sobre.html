@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proceed</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="menu">
+      <h1><a href="../index.html"> Proceed </a></h1>
+      <ul class="menu-itens">
+        <li class="nav-item-1"><a href="login.html">Entrar</a></li>
+        <li class="nav-item-2"><a href="cadastro.html">Cadastrar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="pfss">
+
+    <div class="sobre-mim">
+      <div class="profille-pfss">
+        <div class="img-pfss">
+          <img src="../img/Psico-1.png" alt="">
+        </div>
+        <div class="button-msg">
+          <button class="msg-btn" id="msg-icon" onclick="openModal()"> <img src="../img/msg-icon.png" alt=""> Mandar
+            mensagem</button>
+        </div>
+      </div>
+
+      <div class="texto-sobremim">
+        <div class="name-pfss">
+          <h1>Fernanda Cardoso</h1>
+          <div class="rate-pfss">
+            <div class="avalia">
+              <p>Avaliação 5</p>
+            </div>
+            <div class="stars-rate">
+              <img src="../img/star.png" alt="">
+              <img src="../img/star.png" alt="">
+              <img src="../img/star.png" alt="">
+              <img src="../img/star.png" alt="">
+              <img src="../img/star.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="pfs">
+          <h2>Psicóloga</h2>
+        </div>
+
+        <div class="txt-sbm">
+          <h2>Sobre mim</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita maxime commodi explicabo quia beatae
+            quae, repellendus, non totam dicta fuga quidem doloremque doloribus asperiores recusandae, cumque aspernatur
+            fugit! Dicta, minus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, quod neque totam,
+            necessitatibus eum, aliquid officia fugiat consequatur ut dolor accusantium. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-msg">
+
+      <div class="modal">
+        <div class="close">
+          <img src="../img/Exit.png" onclick="closeModal()" alt="">
+        </div>
+
+        <div class="txt-msg">
+          <h2>Enviar mensagem via</h2>
+        </div>
+
+        <div class="txt-vias">
+
+          <div class="wapp-via">
+            <p>WhatsApp</p>
+            <a target="_blank" id="whatsapp"
+              href="http://api.whatsapp.com/send?1=pt_BR&phone=5517991045312">+5517991045312</a>
+          </div>
+
+
+          <div class="email-via">
+            <p>E-mail <button id="copyText">
+                <img src="../img/copy-icon.png" alt=""></button></p>
+            <div class="email-flex">
+              <input class="email-copy" type="text" id="emailText" value="fernandacardosoofc@gmail.com" readonly>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <div class="rodape">
+
+      <div class="itens-rdp">
+
+        <div class="part naveg">
+          <h2>Navegação</h2>
+          <a href="./">Quem somos</a>
+          <a href="./">Política de privacidade</a>
+        </div>
+
+        <div class="part ctt">
+          <h2>Contato</h2>
+          <a target="_blank" id="whatsapp"
+            href="http://api.whatsapp.com/send?1=pt_BR&phone=5517991045312">+5517991045312</a>
+          <a href="mailto:proceedsuporte@gmail.com">proceedsuporte@gmail.com</a>
+        </div>
+
+        <div class="part rds">
+          <h2>Redes Sociais</h2>
+
+          <a target="_blank" href="https://www.instagram.com/proceed__senac/">
+            <img src="../img/brand-instagram.png" alt="instagram">
+          </a>
+
+        </div>
+
+      </div>
+
+      <p>COPYRIGHT PROCEED - 2022. ALGUNS DIREITOS RESERVADOS.</p>
+
+    </div>
+
+
+  </footer>
+
+  <script src="../js/script.js"></script>
+
+</body>
+
+</html>

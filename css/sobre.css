@@ -1,0 +1,52 @@
+.sobre{
+  width: auto;
+  height: 100%;
+  margin: 0;
+  padding: 64px;
+  justify-content: center;
+}
+
+.text-sobre{
+  color: var(--preto);
+  font-size: 1.5rem;
+}
+
+.text-sobre h1{
+  width: 95px;
+  border-bottom: 4px solid var(--verde-1);
+  margin-bottom: 16px;
+}
+
+.text-sobre p{
+  color: var(--verde-1);
+}
+
+.button-msg{
+  display: grid;
+  gap: 8px;
+}
+
+.av-btn{
+  cursor: pointer;
+  width: 100%;
+  padding: 16px;
+  border: none;
+  background-color: var(--verde-1);
+  border-radius: 4px;
+  color: var(--branco);
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+
+.av-btn:hover{
+  background-color: var(--verde-2);
+}
+
+
+.av-btn img{
+  width: 16px;
+  justify-self: center;
+  align-self: center;
+}

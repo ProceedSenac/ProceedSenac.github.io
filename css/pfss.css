@@ -1,0 +1,63 @@
+.pfss{
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 64px 0px 340px;
+  justify-content: center;
+}
+
+.img-pfss{
+  width: 230px;
+  border-bottom: 4px solid var(--verde-1);
+  border-radius: 3px;
+  justify-self: center;
+  margin-bottom: 16px;
+}
+
+.sobre-mim{
+  display: flex;
+  gap: 32px;
+}
+
+.msg-btn{
+  cursor: pointer;
+  width: 100%;
+  padding: 16px;
+  border: none;
+  background-color: var(--verde-1);
+  border-radius: 4px;
+  color: var(--branco);
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.msg-btn:hover{
+  background-color: var(--verde-2);
+}
+
+.name-pfss{
+  display: flex;
+  gap: 16px;
+}
+
+.name-pfss h1{
+  color: var(--preto);
+}
+
+.avalia{
+  color: var(--cinza-2);
+  font-size: 0.9rem;
+}
+
+.texto-sobremim{
+  display: flex;
+  flex-direction: column;
+  font-size: 120%;
+}
+
+.pfs{
+  color: var(--cinza-2);
+  margin-bottom: 8px;
+  font-size:1rem;
+}

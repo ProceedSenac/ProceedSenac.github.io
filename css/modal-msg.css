@@ -1,0 +1,98 @@
+.modal-msg{
+  width: 100vw;
+  position: fixed;
+  top: 35%;
+  left: 35%;
+  display: none;
+  z-index: 999;
+  justify-content: center;
+  animation: animate;
+  animation-duration: .3s;
+}
+.email-copy{
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+  font-weight: 500;
+  width: 500px;
+}
+
+.close img{
+  width: 24px;
+  float: right;
+  cursor: pointer;
+}
+
+
+.modal{
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background-color: var(--branco);
+  box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 30%;
+  gap: 8px;
+}
+
+.txt-msg{
+  width: 230px;
+  font-size: 1rem;
+  border-bottom: 4px solid var(--verde-1);
+  margin-bottom: 16px;
+}
+
+.wapp-via{
+  margin-bottom: 8px;
+}
+
+.wapp-via p{
+  color: var(--cinza-2);
+  font-weight: 600;
+}
+
+.wapp-via a{
+  text-decoration: none;
+  color: var(--preto);
+  font-size: 1.3rem;
+}
+
+.wapp-via a:hover{
+  text-decoration: underline;
+}
+
+.wapp-via a img{
+  width: 20px;
+  margin-left: 0px;
+}
+
+.email-via button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  padding: 0;
+}
+
+.email-via p{
+  color: var(--cinza-2);
+  font-weight: 600;
+}
+
+.email-via button img{
+  margin-left:0;
+  width: 20px;
+}
+
+@keyframes animate{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
